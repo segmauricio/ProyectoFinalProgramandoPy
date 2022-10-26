@@ -1,4 +1,9 @@
-Quiero agregar que los archivos index2.html y muro.html original se llamaban "index.php" y "muro.php"
-pero los tuve que cambiar ya que live pages de github solo mostraba esas 2 páginas desformateadas, por así decirlo.
-Así que por una razón estética los cambié a html para que al ingresar al live page se pueda apreciar el 
-formato de ambas páginas.
+Quiero agregar que los archivos crear.html y muro.html original se llamaban "index.php" y "muro.php"
+pero los tuve que cambiar ya que live pages de github solo mostraba esas 2 páginas desformateadas, por así
+decirlo.
+Así que por una razón estética los cambié a la extensión .html para que al ingresar al live page se pueda
+apreciar el formato de ambas páginas.
+Si bien no es funcional la página en el live page debido a que MySQL debe estar encendido y el token
+de la API de google sheets ya expiró, en el día de la presentación se pudo apreciar como funcionaba
+de manera correcta
+
