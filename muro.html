@@ -1,0 +1,38 @@
+<?php
+  require('libs/conex.php');
+  require('libs/mensajes.libs.php');
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto Final - Programando Paraguay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./ProyectoFinalProgramandoPy/style.css">
+  </head>
+  <body style="background-image: url('https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952509_1280.jpg")>
+  <nav class="navbar text-light navbar-dark bg-dark justify-content-center" >
+      <nav>
+        <ul class="title">
+          <h1 class="title" style="color: #EFAD75">MURO DE SUGERENCIAS</h1>
+        </ul>
+      </nav>
+  </nav>
+  <nav class="navbar navbar-dark bg-dark justify-content-center">
+      <nav>
+        <ul>
+          <a class="btn btn-outline-warning" href="./muro.html">MURO DE COMENTARIOS</a>
+          <a class="btn btn-outline-warning" href="./index2.html">CREAR</a>
+          <a class="btn btn-outline-warning" href="./index.html">Volver a inicio</a>
+        </ul>
+      </nav>
+  </nav>
+    <div class="container">
+      <?php
+      include('libs/foro.php');
+      ?>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <footer style=" margin-top: 5%"></footer>
+  </body>
+</html>

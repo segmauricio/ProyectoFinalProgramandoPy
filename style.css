@@ -1,0 +1,121 @@
+body { /* Aplica a todo el body*/
+    height: 100%;
+    width: 100%;
+    background-color: #ffe6d1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3D3C42;
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952509_1280.jpg');
+    opacity: 1;
+}
+  
+#title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+#title h1 {
+    font-weight: bolder;
+    color: #EFAD75;
+}
+#title img{
+    width: 50px;
+    height: 55px;
+    margin-left: 10px;
+}
+.descripcion{
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 50px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+}
+#menu-item{
+    margin-left: 100px;
+    background-color: #ffe6d1;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    height: 2rem;
+    border-radius: 10px;
+    max-width: 100%;
+}
+.navbar{
+      font-weight: bolder;
+      color: whitesmoke ;
+      padding-top: 50px;
+      margin-bottom: 35px;
+}
+ul{
+    list-style: none;
+}
+#menu li>a{
+    background-color: #424949;
+    color: red;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+}
+#menu li>a:hover{
+    color: black;
+}
+#menu>li{
+    float: left;
+    text-align:center
+}
+.menu-item:hover {
+    color: #3D3C42;
+    background-color: #c19a79a5;
+}
+.producto {
+    display: flex;
+    justify-content: left;
+    width:200px;
+    height:200px;
+    display:inline-block;
+    color: #ffe6d1;
+}
+.sabor{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display:inline-block;
+    margin-right:20px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 80px;
+    height:35px;
+}
+.precio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:200px;
+    height:200px;
+    width: 100px;
+    height:35px;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    display:inline-block;
+    margin-right:20px;
+    color: #ffe6d1;
+}
+/*
+Esta clase permite centrar verticalmente los items en el div, tener en cuenta que si aumenta el alto del div contenedor,
+el line-height acá también debería aumentar al mismo valor.
+*/
+.item {
+    vertical-align: middle;
+    line-height: 2rem; 
+}
+#lista-menu {
+    margin: auto; /* con esto se logra que este centrado horizontalmente */
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
+}
